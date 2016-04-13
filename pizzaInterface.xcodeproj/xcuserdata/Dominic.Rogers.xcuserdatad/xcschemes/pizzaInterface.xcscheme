@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B18E14E41CBD44B800C41B65"
+               BuildableName = "pizzaInterface.app"
+               BlueprintName = "pizzaInterface"
+               ReferencedContainer = "container:pizzaInterface.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B18E14F81CBD44B800C41B65"
+               BuildableName = "pizzaInterfaceTests.xctest"
+               BlueprintName = "pizzaInterfaceTests"
+               ReferencedContainer = "container:pizzaInterface.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B18E15031CBD44B800C41B65"
+               BuildableName = "pizzaInterfaceUITests.xctest"
+               BlueprintName = "pizzaInterfaceUITests"
+               ReferencedContainer = "container:pizzaInterface.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B18E14E41CBD44B800C41B65"
+            BuildableName = "pizzaInterface.app"
+            BlueprintName = "pizzaInterface"
+            ReferencedContainer = "container:pizzaInterface.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B18E14E41CBD44B800C41B65"
+            BuildableName = "pizzaInterface.app"
+            BlueprintName = "pizzaInterface"
+            ReferencedContainer = "container:pizzaInterface.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B18E14E41CBD44B800C41B65"
+            BuildableName = "pizzaInterface.app"
+            BlueprintName = "pizzaInterface"
+            ReferencedContainer = "container:pizzaInterface.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
