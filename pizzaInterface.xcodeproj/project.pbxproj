@@ -101,11 +101,11 @@
 			children = (
 				B18E14E81CBD44B800C41B65 /* AppDelegate.swift */,
 				B18E14EA1CBD44B800C41B65 /* ViewController.swift */,
+				B18E15161CBD44CF00C41B65 /* pizzaInterface.swift */,
 				B18E14EC1CBD44B800C41B65 /* Main.storyboard */,
 				B18E14EF1CBD44B800C41B65 /* Assets.xcassets */,
 				B18E14F11CBD44B800C41B65 /* LaunchScreen.storyboard */,
 				B18E14F41CBD44B800C41B65 /* Info.plist */,
-				B18E15161CBD44CF00C41B65 /* pizzaInterface.swift */,
 			);
 			path = pizzaInterface;
 			sourceTree = "<group>";
@@ -488,6 +488,7 @@
 				B18E150F1CBD44B800C41B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B18E15101CBD44B800C41B65 /* Build configuration list for PBXNativeTarget "pizzaInterfaceTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				B18E15121CBD44B800C41B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B18E15131CBD44B800C41B65 /* Build configuration list for PBXNativeTarget "pizzaInterfaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				B18E15151CBD44B800C41B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

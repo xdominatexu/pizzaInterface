@@ -10,40 +10,44 @@ import Foundation
 protocol PizzaInterface {
     //methods of the pizza object
     //creates the Pizza in 10 minutes
-    func createPizza()
+    func createPizza() -> String
     //method that adds pizza to aray
-    func addPizzaToOrders()
+//    func addPizzaToOrders() -> Int
     //get amount of pizzas to get time
-    func estimatedTime()
+    func estimatedTime() -> Int
     //select the toppings
-    func selectToppings()
+//    func selectToppings()
 }
 
-
-
-
-class Pizza{
+class Pizza : PizzaInterface{
     var pizzaToppings : Array<String>
     var pizzaSize : String
     var pizzaCrust : String
+    var time : Int
     //instance methods
     
     //methods
+    func createPizza() -> String{
+        return "Topping \(pizzaToppings)\nSize \(pizzaSize)\nCrust \(pizzaCrust)\nTime \(time)"
+    }
     
-    
+    func estimatedTime() -> Int{
+        return time
+    }
     //init
-    init(){
+/*    init(){
         pizzaToppings = []
         pizzaCrust = ""
         pizzaSize = ""
-    }
-    init(toppings : Array<String>,size: String,typeOfCrust: String){
+        time = 0
+    }*/
+    init(toppings : Array<String>,size: String,typeOfCrust: String,time : Int){
         self.pizzaToppings = toppings
         self.pizzaSize = size
         self.pizzaCrust = typeOfCrust
+        self.time = time
     }
     func toString()->String{
         return "Toppings: \(pizzaToppings)\nSize: \(pizzaSize)\nCrust: \(pizzaCrust)"
     }
-    
 }
